@@ -1,6 +1,7 @@
 class PlacesController < ApplicationController
 
   def index
+    puts params[:page]
     @places = Place.order(:id).paginate(:page => params[:page], :per_page => 3)
   end
 
