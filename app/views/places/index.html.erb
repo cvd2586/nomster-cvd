@@ -13,7 +13,6 @@
         <h3>Find the best coffee joints</h3>
       </div>
     </div>
-  </div>
     <div class="carousel-item">
       <%= image_tag 'coffee2.jpg', class: 'd-block img-fluid' %>
       <div class="carousel-caption d-none d-md-block">
@@ -27,6 +26,7 @@
       </div>
     </div>
   </div>
+
   <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -35,6 +35,7 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+</div>
 
 <% @places.each do |place| %>
   <div class="booyah-box col-10 offset-1">
