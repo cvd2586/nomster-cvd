@@ -68,7 +68,7 @@ gem 'will_paginate-bootstrap4', '~> 0.2.2'
 
 gem 'popper_js', '~> 1.11.1'
 gem 'bootstrap', '4.0.0.alpha6'
-gem 'simple_form'
+gem 'simple_form', '>= 5.0.0'
 gem "font-awesome-rails"
 gem 'devise'
 gem 'geocoder'
